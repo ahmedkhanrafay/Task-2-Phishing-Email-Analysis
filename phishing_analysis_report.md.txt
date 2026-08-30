@@ -1,0 +1,97 @@
+# Phishing Email Analysis Report
+
+## 1. Objective
+
+The objective of this task is to analyze a suspicious email sample and
+identify common phishing characteristics such as sender spoofing,
+suspicious links, urgency, threats, and social engineering techniques.
+
+## 2. Email Sample
+
+The analyzed email claims to be from PayPal Security and asks the
+recipient to verify their account because of unusual activity.
+
+## 3. Phishing Indicators Identified
+
+### 3.1 Suspicious Sender Address
+
+The email claims to be from PayPal Security, but the sender uses the
+domain `example.com` instead of an official PayPal domain. This mismatch
+is a strong warning sign.
+
+### 3.2 Urgent Subject
+
+The subject contains the word "URGENT" and claims that the PayPal account
+has been limited. This is intended to create panic and encourage quick
+action.
+
+### 3.3 Threatening Language
+
+The email states that the account may be permanently suspended if the
+recipient does not act within 24 hours. This creates pressure and fear.
+
+### 3.4 Suspicious URL
+
+The email contains the URL:
+
+`http://paypal-security-verification.example.com/login`
+
+The domain does not match the legitimate PayPal domain. The URL should
+not be clicked.
+
+### 3.5 Generic Greeting
+
+The email uses "Dear Customer" instead of identifying the recipient by
+name. Generic greetings can be a warning sign in phishing emails.
+
+### 3.6 Social Engineering
+
+The message uses fear, urgency, and the possibility of account
+suspension to influence the recipient into taking immediate action.
+
+## 4. Header Analysis
+
+The provided sample is a simulated text email and does not contain
+original email headers such as Received, Return-Path, SPF, DKIM, or
+Authentication-Results.
+
+Therefore, genuine header analysis cannot be performed on this sample.
+
+For a real phishing investigation, the original email headers should be
+obtained and analyzed using a trusted email-header analysis tool.
+
+## 5. Risk Assessment
+
+The email should be considered suspicious because it contains multiple
+phishing indicators:
+
+- Suspicious sender domain
+- Urgent language
+- Threat of account suspension
+- Suspicious verification link
+- Generic greeting
+- Social engineering techniques
+
+## 6. Recommended Actions
+
+A user receiving a suspicious email should:
+
+1. Avoid clicking links.
+2. Avoid opening unknown attachments.
+3. Verify the sender through an independent method.
+4. Visit the organization's official website directly instead of using
+   links in the email.
+5. Report the suspicious email to the appropriate security team or email
+   provider.
+6. Delete the message after reporting it, if appropriate.
+
+## 7. Conclusion
+
+The analyzed sample demonstrates several common phishing techniques.
+The attacker attempts to impersonate a trusted organization and uses
+urgency, fear, and a suspicious verification link to influence the
+recipient.
+
+This analysis demonstrates the importance of checking the sender,
+links, language, and email headers before taking action on suspicious
+emails.

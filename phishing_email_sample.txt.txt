@@ -1,0 +1,19 @@
+From: PayPal Security <security-paypal@example.com>
+To: user@example.com
+Subject: URGENT: Your PayPal Account Has Been Limited
+
+Dear Customer,
+
+We detected unusual activity on your PayPal account.
+
+Your account has been temporarily limited. You must verify your account immediately to avoid permanent suspension.
+
+Click the link below to verify your information:
+
+http://paypal-security-verification.example.com/login
+
+If you do not verify your account within 24 hours, your account may be permanently suspended.
+
+Please confirm your account immediately.
+
+PayPal Security Team
